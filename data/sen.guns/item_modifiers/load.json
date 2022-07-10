@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "SelectedItem.tag.SenGuns.gun.Load",
+        "target": "SenPistol.Load",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{SenPistol:{Charge:0}}"
+  }
+]

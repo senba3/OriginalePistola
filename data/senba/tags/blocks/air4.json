@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:tripwire_hook",
+    "minecraft:tripwire",
+    "minecraft:structure_void",
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass",
+    "minecraft:dead_bush",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:redstone_wire",
+    "minecraft:poppy",
+    "minecraft:vine",
+    "minecraft:lever",
+    "minecraft:snow",
+    "minecraft:water",
+    "minecraft:lava",
+        "#minecraft:flowers",
+        "#minecraft:rails",
+        "#minecraft:pressure_plates",
+        "#minecraft:buttons",
+        "#minecraft:carpets",
+        "#minecraft:signs"
+  ]
+}

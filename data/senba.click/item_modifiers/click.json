@@ -1,0 +1,4 @@
+{
+   "function": "minecraft:set_nbt",
+   "tag": "{senba.click:1b}"
+ }

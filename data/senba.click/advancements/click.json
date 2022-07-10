@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:armor_stand",
+              "nbt": "{Tags:[\"senba.click\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "senba.click:click"
+  }
+}
