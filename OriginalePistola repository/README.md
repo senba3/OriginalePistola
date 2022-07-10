@@ -8,7 +8,7 @@
 ## Usage
 ここにお手本の銃のgiveコマンドを貼ります。
 
-/give @s iron_hoe{sen.clicks:1b,SenGuns:{Damage:{damage:300},gun:{Count:6b,Charge:20,Load:60,Move:10,Speed:3}}}
+``/give @s iron_hoe{sen.clicks:1b,SenGuns:{Damage:{damage:300},gun:{Count:6b,Charge:20,Load:60,Move:10,Speed:3}}}``
 
 "sen.clicks:1b"のタグはこのデータパックを構成しているライブラリを反応させるために必要です。
 
