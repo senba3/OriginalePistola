@@ -1,5 +1,6 @@
 [
   {
+    "内容": "銃弾数を設計図から受け取る",
     "function": "minecraft:copy_nbt",
     "source": "this",
     "ops": [
