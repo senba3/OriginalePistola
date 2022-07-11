@@ -1,4 +1,7 @@
 
+# このファンクションでは、アイテムのクールタイムを計り、時間が0になることを目的とする。
+
+
 #準備
 scoreboard objectives add sen.dummy dummy
 data modify storage senba tag set from entity @s SelectedItem.tag
