@@ -10,24 +10,19 @@ data modify entity @e[type=marker,distance=..5,tag=sen.guns-bullet,limit=1,sort=
 data modify entity @e[type=marker,distance=..5,tag=sen.guns-bullet,limit=1,sort=nearest] data.SenGuns.Damage.owner set from entity @s UUID
 
 
-#スコアタグ
-scoreboard players operation @e[type=marker,tag=sen.born,tag=sen.guns-bullet] sen.number = @s sen.number
-
-#何かに使うであろう追加オプション用
-function #sen.guns:option
-
 #次tickのファンクション読み込み
 schedule function sen.guns:bullet/ 1t
 schedule function sen.guns:tag 4t
-tag @s add sen.guns-shotted
 
-# タグ
+
+# タグとか音とか
+tag @s add sen.guns-shotted
 tag @e[type=marker,tag=sen.born,tag=sen.guns-bullet] remove sen.born
 playsound minecraft:entity.firework_rocket.blast master @a ~ ~ ~ 1 1.2
 item modify entity @s weapon sen.guns:charge
 
 
-#残弾数
+#残弾数を1減らす
 data modify storage senba tag set from entity @s SelectedItem.tag
 execute store result storage senba tag.SenPistol.Count byte 0.999999 run data get storage senba tag.SenPistol.Count
 item modify entity @s weapon senba:modify
