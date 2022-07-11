@@ -26,5 +26,5 @@
 "Originale Pistola" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
 ## 使用範囲
-再配布可能
+折込配布可能
 自作発言はおやめを
