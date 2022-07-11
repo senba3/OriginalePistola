@@ -1,5 +1,6 @@
 [
  {
+   "内容": "タイマーをともに0にする",
    "function": "minecraft:set_nbt",
    "tag": "{SenPistol:{Load:0,Charge:0}}"
  }
