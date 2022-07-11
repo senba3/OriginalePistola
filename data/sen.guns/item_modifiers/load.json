@@ -1,5 +1,6 @@
 [
   {
+    "内容": "設計図から弾の入れ替え時間を受け取る",
     "function": "minecraft:copy_nbt",
     "source": "this",
     "ops": [
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "内容": "銃弾のクールタイムが邪魔をしないように0にしておく",
     "function": "minecraft:set_nbt",
     "tag": "{SenPistol:{Charge:0}}"
   }
