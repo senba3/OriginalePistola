@@ -10,5 +10,26 @@
         "op": "replace"
       }
     ]
+  },
+  {
+    "内容": "タイマーをともに0にする (条件付き)",
+    "function": "minecraft:set_nbt",
+    "tag": "{SenPistol:{Load:0,Charge:0}}",
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "nbt": "{SenPistol:{}}"
+              }
+            }
+          }
+        }
+      }
+    ]
   }
 ]
